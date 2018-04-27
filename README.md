@@ -24,7 +24,7 @@ In the following example we'll login to a host via ssh, query the uptime and the
          (close my-stream))
     username@my-host.com's password:
     The return value of uptime was:  19:40:28 up  1:18,  2 users,  load average: 0.00, 0.00, 0.00
-    ]0;username@localhost: ~[01;32musername@localhost[00m:[01;34m~[00m$
+    ^[]0;username@localhost: ~^G^[[01;32musername@localhost^[[00m:^[[01;34m~^[[00m$
     Expect is: $
     logout
     Connection to my-host.com closed.
